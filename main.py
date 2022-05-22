@@ -19,7 +19,7 @@ class Client:
         self.location = conf["location"] # default : false
         
         self.ip = self.grab_ip()
-        self.outHandeler = {str(i) : "" for i in range(200)}
+        self.outHandeler = {str(i) : "" for i in range(self.noise)}
         self.tSP = {} # Time since packet
 
     def splash(self):
