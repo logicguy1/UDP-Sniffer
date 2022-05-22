@@ -21,4 +21,9 @@ To configure the scipt change the values in config.json, here is a breakdown of 
 }
 ```
 
+## Usage for Omegle
+
+I will here show you how eazy and insecure omegle is, this is **educational only**
+
+If you run the scrip and fire up omegle video chat it will start picking up packets, if you set `"location": true` in the configureation it will also display location data, if its able to fetch it
 
